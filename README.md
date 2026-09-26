@@ -89,11 +89,3 @@ frontend later without touching the AI logic.
   character but a prop seen with them vanishes) is intentionally simple —
   tune it per screenplay if it's too noisy or too lax.
 
-## 5. Environment variables (`.env`)
-
-| Variable | Required | Notes |
-|---|---|---|
-| `LLM_PROVIDER` | yes | `openai`, `groq`, or `gemini` |
-| `LLM_MODEL` | yes | e.g. `gpt-4o-mini`, `llama-3.1-70b-versatile`, `gemini-1.5-flash` |
-| `OPENAI_API_KEY` / `GROQ_API_KEY` / `GEMINI_API_KEY` | one of these | matching whichever provider you set |
-| `DATABASE_URL` | no | omit to use local SQLite (`cultura.db`) |
